@@ -1,1 +1,3 @@
-# marcmascort
+Hi, my name is `Marc Mascort Bou`, and I'm a Senior Backend Engineer from Girona, Catalunya.
+
+More comming soon...
