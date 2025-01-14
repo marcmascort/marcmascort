@@ -5,7 +5,6 @@
 📍 Cassà de la Selva, Girona, Catalunya<br>
 🌐 Catalan / Spanish / English<br>
 🎂 1986-09-16<br>
-👨‍👩‍👦 Married and dad of a beautiful son
 
 ## Career
 ```php
@@ -16,20 +15,21 @@ $mmbCareer = new \Developer\Career(
 );
 
 $mmbCareer->attach(new \Developer\Job(
-  organization: 'T4xi',
-  website: 'https://t4xi.com',
+  organization: 'Teladoc Health International',
+  website: 'https://teladoc.com',
   location: 'remote',
-  team: 'eHealth',
-  role: 'Backend lead',
-  from: new \DateTimeImmutable('2020-07-01', 'Europe/Madrid')
+  role: 'Senior Backend Engineer',
+  from: new \DateTimeImmutable('2024-04-01', 'Europe/Madrid'),
 ));
 
 $mmbCareer->attach(new \Developer\Job(
-  organization: 'MMB-DEV',
-  website: 'https://mmb-dev.com',
-  location: 'Girona',
-  role: 'Craft Developer / ICT Consultant',
-  from: new \DateTimeImmutable('2022-01-01', 'Europe/Madrid')
+  organization: 'T4xi',
+  website: 'https://t4xi.com',
+  location: 'remote',
+  team: 'eHealth (external for Teladoc)',
+  role: 'Backend lead',
+  from: new \DateTimeImmutable('2020-07-01', 'Europe/Madrid'),
+  to: new \DateTimeImmutable('2024-03-31', 'Europe/Madrid'),
 ));
 
 $mmbCareer->attach(new \Developer\Job(
@@ -37,7 +37,8 @@ $mmbCareer->attach(new \Developer\Job(
   website: 'https://articstudio.com',
   location: 'Girona',
   role: 'CTO / Developer',
-  from: new \DateTimeImmutable('2013-01-01', 'Europe/Madrid')
+  from: new \DateTimeImmutable('2013-01-01', 'Europe/Madrid'),
+  to: new \DateTimeImmutable('2020-06-30', 'Europe/Madrid'),
 ));
 ```
 
